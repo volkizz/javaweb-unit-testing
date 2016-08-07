@@ -1,47 +1,23 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Created by https://www.gitignore.io/api/intellij
 
-# Folder config file
-Desktop.ini
+### Intellij ###
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# User-specific stuff:
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
-# Windows shortcuts
-*.lnk
+# Gradle:
+build/
+.idea/
+## Plugin-specific files:
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# IntelliJ
+/out/
